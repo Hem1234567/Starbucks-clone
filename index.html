@@ -14,18 +14,18 @@
             <div class="flex items-center space-x-6">
                 <img src="assets/logo.png" alt="Starbucks Logo" class="h-14 cursor-pointer">
                 <div class="hidden md:flex space-x-6">
-                    <a href="#" class="text-black font-semibold hover:text-green-700 ml-7">MENU</a>
-                    <a href="#" class="text-black font-semibold hover:text-green-700">REWARDS</a>
-                    <a href="#" class="text-black font-semibold hover:text-green-700">GIFT CARDS</a>
+                    <a href="https://www.starbucks.com/menu" class="text-black font-semibold hover:text-green-700 ml-7">MENU</a>
+                    <a href="https://www.starbucks.com/rewards" class="text-black font-semibold hover:text-green-700">REWARDS</a>
+                    <a href="https://www.starbucks.com/gift" class="text-black font-semibold hover:text-green-700">GIFT CARDS</a>
                 </div>
             </div>
             <div class="hidden md:flex items-center space-x-6">
                 <div class="flex items-center space-x-1 hover:text-green-700 cursor-pointer font-bold">
-                    <span><i class="fa-solid fa-location-dot mr-2"></i></span>
-                    <span>Find a store</span>
+                    <a href="https://www.starbucks.com/store-locator?map=13.076327,80.126634,11z"><span><i class="fa-solid fa-location-dot mr-2"></i></span>
+                    <span>Find a store</span></a>
                 </div>
-                <button class="border border-black px-4 py-1 rounded-full font-semibold hover:bg-gray-300 cursor-pointer">Sign in</button>
-                <button class="bg-black text-white px-4 py-1 rounded-full font-semibold hover:bg-gray-800 cursor-pointer">Join now</button>
+                <a href="https://www.starbucks.com/account/signin?returnUrl=https%3A%2F%2Fwww.starbucks.com%2Frewards"><button class="border border-black px-4 py-1 rounded-full font-semibold hover:bg-gray-300 cursor-pointer ">Sign in</button></a>
+                <a href="https://www.starbucks.com/account/create"><button class="bg-black text-white px-4 py-1 rounded-full font-semibold hover:bg-gray-800 cursor-pointer">Join now</button></a>
             </div>
             <button class="md:hidden text-black" onclick="toggleMenu()">
                 <i class="fa-solid fa-bars text-2xl"></i>
@@ -33,15 +33,15 @@
         </nav>
         <div id="mobile-menu" class="hidden md:hidden absolute top-0 left-0 w-full h-full bg-white p-6 flex flex-col space-y-4">
             <button class="text-black text-2xl self-end" onclick="toggleMenu()">&times;</button>
-            <a href="#" class="text-black font-semibold hover:text-green-700">Menu</a>
-            <a href="#" class="text-black font-semibold hover:text-green-700">Rewards</a>
-            <a href="#" class="text-black font-semibold hover:text-green-700">Gift Cards</a>
-            <button class="border border-black px-4 py-1 rounded-full font-semibold hover:bg-gray-300 cursor-pointer">Sign in</button>
-            <button class="bg-black text-white px-4 py-1 rounded-full font-semibold hover:bg-gray-800 cursor-pointer">Join now</button>
-            <div class="flex items-center space-x-1 hover:text-green-700 cursor-pointer font-bold">
+            <a href="https://www.starbucks.com/menu" class="text-black font-semibold hover:text-green-700">Menu</a>
+            <a href="https://www.starbucks.com/rewards" class="text-black font-semibold hover:text-green-700">Rewards</a>
+            <a href="https://www.starbucks.com/gift" class="text-black font-semibold hover:text-green-700">Gift Cards</a>
+            <a href="https://www.starbucks.com/account/signin?returnUrl=https%3A%2F%2Fwww.starbucks.com%2Frewards"><button class="border border-black px-4 py-1 rounded-full font-semibold hover:bg-gray-300 cursor-pointer">Sign in</button></a>
+            <a href="https://www.starbucks.com/account/create"><button class="bg-black text-white px-4 py-1 rounded-full font-semibold hover:bg-gray-800 cursor-pointer">Join now</button></a>
+            <a href="https://www.starbucks.com/store-locator?map=13.076327,80.126634,11z"><div class="flex items-center space-x-1 hover:text-green-700 cursor-pointer font-bold">
                 <span><i class="fa-solid fa-location-dot mr-2"></i></span>
                 <span>Find a store</span>
-            </div>
+            </div></a>
         </div>
     </header>
     <main>
@@ -50,9 +50,9 @@
             <div class="w-full md:w-1/2 bg-[#32462f] text-white flex flex-col items-center justify-center p-10 h-auto md:h-[600px]">
                 <h1 class="text-4xl md:text-6xl font-bold mt-10 md:mt-52 text-center">The Spring Edit</h1>
                 <p class="text-lg md:text-xl mb-4 mt-6 font-semibold text-center">Fresh flavors, familiar joy.</p>
-                <button class="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-green-900 transition font-bold mt-4 mb-10 md:mb-52">
+                <a href="https://www.starbucks.com/menu/featured/"><button class="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-green-900 transition font-bold mt-4 mb-10 md:mb-52">
                     View the menu
-                </button>
+                </button></a>
             </div>
             <div class="w-full md:w-1/2">
                 <img src="assets/img1.jpg" alt="Spring Edit Drinks" class="w-full h-auto md:h-[600px]">
@@ -65,18 +65,18 @@
             <div class="w-full md:w-1/2 bg-[#5F4633] text-white flex flex-col items-center justify-center p-10 h-auto md:h-96">
                 <h1 class="text-2xl md:text-3xl font-bold text-center">It’s a great day for free coffee</h1>
                 <p class="text-md md:text-lg text-center font-semibold mt-6 mb-6">Start your Starbucks® Rewards journey with a coffee on <br> us. Join now and enjoy a free handcrafted drink with a <br> qualifying purchase during your first week.*</p>
-                <button class="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-green-900 transition">
+                <a href="https://www.starbucks.com/account/create"><button class="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-green-900 transition">
                     Join now
-                </button>
+                </button></a>
             </div>
         </section>
         <section class="flex flex-col md:flex-row items-center h-auto md:h-[600px] mt-8">
             <div class="w-full md:w-1/2 bg-[#32462f] text-white flex flex-col items-center justify-center p-10 h-auto md:h-[600px]">
                 <h1 class="text-4xl md:text-6xl font-bold text-center">Our smoothest, brightest coffee <br> yet</h1>
                 <p class="text-lg md:text-xl mb-6 mt-6 md:mt-10 font-semibold text-center">Discover the people and places behind the <br> new Starbucks® Sunsera Blend™ as it makes its <br> way from farm to cup.</p>
-                <button class="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-green-900 transition font-bold mt-4">
+                <a href="https://traceability.starbucks.com/#/home/CRP194960/?utm_medium=website&utm_source=starbucks.com&utm_campaign=spring2025&utm_content=homepage"><button class="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-green-900 transition font-bold mt-4">
                     See the journey
-                </button>
+                </button></a>
             </div>
             <div class="w-full md:w-1/2">
                 <img src="assets/img1.jpg" alt="Sunsera Coffee" class="w-full h-auto md:h-[600px]">
@@ -89,18 +89,18 @@
             <div class="w-full md:w-1/2 bg-[#D1D1AA] text-gray-700 flex flex-col items-center justify-center p-10 h-auto md:h-96">
                 <h1 class="text-2xl md:text-3xl font-bold text-center">Starbucks x Misha Tyutyunik</h1>
                 <p class="text-md md:text-lg text-center font-semibold mt-6 mb-6">This bold new series from the Brooklyn-based artist <br> highlights the connection among all living things.</p>
-                <button class="border border-black px-6 py-2 rounded-full hover:bg-black hover:text-white transition">
+                <a href="https://about.starbucks.com/stories/2025/starbucks-artist-mech-collaboration-with-misha-tyutyunik/?utm_source=stripe&utm_medium=homepage&utm_campaign=spring25"><button class="border border-black px-6 py-2 rounded-full hover:bg-black hover:text-white transition">
                     Learn more
-                </button>
+                </button></a>
             </div>
         </section>
         <section class="flex flex-col md:flex-row items-center h-auto md:h-[600px] mt-8">
             <div class="w-full md:w-1/2 bg-[#006242] text-white flex flex-col items-center justify-center p-10 h-auto md:h-[600px]">
                 <h1 class="text-4xl md:text-6xl font-bold text-center">More reasons to <br> stay awhile</h1>
                 <p class="text-lg md:text-2xl mb-6 mt-6 md:mt-10 font-semibold text-center">Mugs, glasses and the condiment bar are <br> back—and get free refills of hot or iced <br> brewed coffee or tea.**</p>
-                <button class="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-green-900 transition font-bold mt-4">
+                <a href="https://about.starbucks.com/backtostarbucks/?utm_source=stripe&utm_medium=homepage&utm_campaign=backtostarbucks"><button class="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-green-900 transition font-bold mt-4">
                     Learn more
-                </button>
+                </button></a>
             </div>
             <div class="w-full md:w-1/2">
                 <img src="assets/img5.jpg" alt="More reasons to stay" class="w-full h-auto md:h-[600px]">
@@ -190,12 +190,12 @@
         </div>
 
         <div class="mt-6 flex justify-start space-x-7 text-2xl text-black">
-            <i class="fa-brands fa-spotify hover:text-green-500  cursor-pointer"></i>
-            <i class="fa-brands fa-facebook hover:text-blue-500  cursor-pointer"></i>
-            <i class="fa-brands fa-pinterest hover:text-red-500  cursor-pointer"></i>
-            <i class="fa-brands fa-instagram hover:text-pink-500  cursor-pointer"></i>
-            <i class="fa-brands fa-youtube hover:text-red-600 cursor-pointer"></i>
-            <i class="fa-brands fa-x-twitter hover:text-white hover:bg-black cursor-pointer"></i>
+            <a href="https://open.spotify.com/user/starbucks?si=enGWBONySIOG6-cR79VIRA"><i class="fa-brands fa-spotify hover:text-green-500  cursor-pointer"></i></a>
+            <a href="https://www.facebook.com/Starbucks?mibextid=rS40aB7S9Ucbxw6v"><i class="fa-brands fa-facebook hover:text-blue-500  cursor-pointer"></i></a>
+            <a href="https://www.pinterest.com/starbucks/"><i class="fa-brands fa-pinterest hover:text-red-500  cursor-pointer"></i></a>
+            <a href="https://www.instagram.com/starbucks?igsh=Y2QxYmg1YTdlZHBp"><i class="fa-brands fa-instagram hover:text-pink-500  cursor-pointer"></i></a>
+            <a href="https://youtube.com/@starbucks?si=i3XuoVBcXrwWdtKn"><i class="fa-brands fa-youtube hover:text-red-600 cursor-pointer"></i></a>
+            <a href="https://x.com/starbucks/"><i class="fa-brands fa-x-twitter hover:text-white hover:bg-black cursor-pointer"></i></a>
         </div>
 
         <div class="mt-6 text-sm text-black space-y-2">
